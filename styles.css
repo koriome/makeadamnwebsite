@@ -1,0 +1,17 @@
+@font-face {
+    font-family: playfair;
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+
+body{
+    background: antiquewhite;
+    font-family: playfair, serif;
+}
+.title{
+    padding-top: 2em;
+    text-align: center;
+    line-height: .7em;
+}
+.title h2{
+    font-size: 1em;
+}
