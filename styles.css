@@ -15,3 +15,43 @@ body{
 .title h2{
     font-size: 1em;
 }
+
+.gridcontainer{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 2%;
+}
+
+.griditem{
+    background-color: bisque;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.p1{
+    padding: 1em 1em 1em 1em;
+}
+
+.blurb{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.gridtitle{
+    text-align: center;
+}
+
+#warning{
+    background-color: #ebe998;
+    text-align: center;
+}
+
+#warning h2{
+    padding: 1em 1em 1em 1em;
+}
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
